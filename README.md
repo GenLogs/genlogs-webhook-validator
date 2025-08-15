@@ -7,7 +7,7 @@ A simple FastAPI application to validate and receive GenLogs webhook alerts with
 ### 1. Install Dependencies
 
 ```bash
-pip install fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 ### 2. Configure Your Secret
