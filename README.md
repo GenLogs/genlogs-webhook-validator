@@ -28,7 +28,9 @@ The server will start on `http://localhost:8000`
 
 ### 4. Expose Your Local Server
 
-Use ngrok to expose your local server:
+Install and use [ngrok](https://ngrok.com) to expose your local server to the internet. Ngrok creates a secure tunnel to your localhost, allowing external services like GenLogs Webhooks to reach your development server running on your local environment.
+
+First, install ngrok from [https://ngrok.com](https://ngrok.com), then run:
 
 ```bash
 ngrok http 8000
